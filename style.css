@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif ;
+}
+body{
+    background-color:black ;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    height: 40px;
+}
+.head .img1{
+    transition: 0.5s;
+    padding-left: 15px;
+}
+.head .img1:hover{
+    transform: scale(1.5);
+}
+.head ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+.head ul li{
+  margin: 10px;
+  font-weight: 700;
+
+}.head ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+
+}
+.head ul li a:hover{
+    color: black;
+    padding: 10px;
+    background-color: white ;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+.line1{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+.contant{
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.949);
+    width: 60%;
+    height: 460px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+}
+.letter{
+    width: 40%;
+    padding-left: 12%;
+    padding-bottom: 5%;
+}
+.letter2{
+padding-left: 10px;
+text-transform: uppercase;
+font-size: 35px;
+font-weight: 790;
+transition: 0.5s;
+padding-bottom: 8px;
+}
+.imgo{
+    padding-right: 50px;
+    padding-bottom: 60px;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.imgo:hover{
+    transform: scale(1.5);
+}
+.letter2:hover{
+    transform: scale(1.2);
+    color:rgb(255, 0, 0);
+}
+.line2{
+    margin-top: 50px;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(128, 128, 128);
+}
+.social{
+  margin-top: 10PX ;
+  margin-left: 42%;
+  padding-left: 10px;
+  padding-top: 7px;
+   width: 210px;
+   height: 45px;
+   background-color: white;
+   border-radius: 30px;
+   
+}
+.sc1{
+    transition: 0.5s;
+    padding-right: 14px;
+}
+.sc2{
+    transition: 0.5s;
+    padding-right: 6px;
+}
+.sc3{
+    transition: 0.5s;
+    padding-left: 6px;
+}
+.sc4{
+    transition: 0.5s;
+    padding-left: 14px;
+}
+.sc1:hover{
+    transform: scale(1.3);
+}
+.sc2:hover{
+    transform: scale(1.3);  
+}
+.sc3:hover{
+    transform: scale(1.3); 
+}
+.sc4:hover{
+    transform: scale(1.3);
+}
